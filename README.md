@@ -1,4 +1,3 @@
-# IPAS – Intelligent Pollution Analytics System
 # IPAS – Intelligent Pollution Analysis System
 
 ## Overview

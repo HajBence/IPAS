@@ -4,11 +4,11 @@
 
 ### Core Team
 - **Imola Gyepesy** - Teacher and consulant
-- **asdd** -  
+- **Petrine Várnai Krisztina** - Mentor and Technical Advisor
 - **Bence Hajbel** – Project lead, hardware & system design
 
 ### Contributors
-- Name – Role (e.g. software development, data analysis)
+
 
 ---
 
@@ -16,8 +16,7 @@
 
 ### Fő csapat
 - **Imola Gyepesy** - Tanár és Konzulens
-- **asdd** -  
+- **Petrine Várnai Krisztina** - Mentor és Szakmai Tanácsadó  
 - **Hajbel Bence** – Projektvezető, hardver és rendszertervezés
 
 ### Közreműködők
-- Név – Szerep (pl. szoftverfejlesztés, adatelemzés)
