@@ -1,55 +1,68 @@
 # IPAS – Intelligent Pollution Analytics System
+# IPAS – Intelligent Pollution Analysis System
 
-🇬🇧 **English below**
+## Overview
 
----
+IPAS (Intelligent Pollution Analysis System) is a modular environmental monitoring project designed to collect, analyze, and visualize pollution-related data using sensors and data processing algorithms.
 
-## 🇭🇺 Magyar leírás
-
-Az IPAS (Intelligent Pollution Analytics System) egy szenzor alapú rendszer, amely környezeti szennyezési adatok mérésére és elemzésére szolgál valós időben.
-
-A projekt célja, hogy mikrokontrollerek és különböző szenzorok segítségével adatokat gyűjtsön (pl. levegőminőség, hőmérséklet, páratartalom), majd ezekből hasznos következtetéseket lehessen levonni.
-
-### Célok
-- Környezeti adatok mérése (levegőminőség, hőmérséklet, páratartalom)
-- Adatgyűjtés és tárolás
-- Trendek elemzése
-- Bővíthető rendszer kialakítása
-
-### Projekt felépítése
-- `hardware/` – mikrokontroller kódok és kapcsolások
-- `software/` – adatfeldolgozás és elemzés
-- `data/` – mért adatok (opcionális)
-
-### Állapot
-🚧 Fejlesztés alatt – első prototípus készül
+The system is intended as a scalable prototype for smart city and environmental research applications.
 
 ---
 
-## 🇬🇧 English Description
+## Objectives
 
-IPAS (Intelligent Pollution Analytics System) is a sensor-based system designed to monitor and analyze environmental pollution in real time.
-
-The project uses microcontrollers and environmental sensors to collect data (e.g. air quality, temperature, humidity) and generate meaningful insights.
-
-### Goals
-- Measure environmental parameters (air quality, temperature, humidity)
-- Collect and store data
-- Analyze trends over time
-- Build a scalable and extensible system
-
-### Project Structure
-- `hardware/` – microcontroller code and wiring
-- `software/` – data processing and analysis
-- `data/` – collected measurements (optional)
-
-### Status
-🚧 In development – first prototype in progress
+- Real-time environmental data collection
+- Sensor-based pollution monitoring
+- Data processing and trend analysis
+- Visualization of air quality metrics
+- Modular architecture for future expansion (IoT / ML integration)
 
 ---
 
-## Future Plans
-- Wireless communication (WiFi / LoRa)
-- Cloud integration
-- Data visualization dashboard
-- AI-based pollution analysis
+## System Architecture
+
+The project is structured into the following components:
+
+- **Sensors layer** – data acquisition (e.g., air quality, temperature, humidity)
+- **Processing layer** – filtering and analyzing raw sensor data
+- **Storage layer** – saving structured datasets
+- **Visualization layer** – graphs and dashboards
+
+---
+
+## Project Structure
+IPAS/
+├── README.md
+├── README.hu.md
+├── CONTRIBUTORS.md
+│
+├── docs/
+│ ├── en/
+│ └── hu/
+│
+├── src/
+│ ├── sensors/
+│ ├── data_processing/
+│ └── visualization/
+│
+├── hardware/
+├── data/
+├── tests/
+│
+├── .gitignore
+├── LICENS
+---
+
+## Getting Started
+
+### Requirements
+
+- Python 3.x (or embedded C/C++ depending on hardware layer)
+- Required libraries listed in `requirements.txt`
+
+### Installation
+
+```bash
+git clone https://github.com/your-repo/IPAS.git
+cd IPAS
+pip install -r requirements.txt
