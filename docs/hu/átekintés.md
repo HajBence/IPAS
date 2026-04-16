@@ -10,7 +10,3 @@ A projekt megvalósulását a magyar állam is támogatta egy pályázattal.
 
 ## Hol használható az IPAS? 
 Jelenleg még a prototípus fejlesztése zajlik de a terveink között az van, hogy szinte bárhol használható legyen. Rendelkezni fog napelemmel és belső akummlátorral terveink között szerepel az,hogy 24 órát tudjon működni önnállóan. A külső házat időjárás állóra szeretnénk 3D nyomtatni A _V1_ ami jelenleg is készül nem rendelkezik majd SIM kártya foglalattal így egy ház Wifi hálózatára fog rákapcsolódni és csak azon a Wifi hálózaton lesz elérhető a weboldal. Ezt majd a _V2_ esetében szeretnénk tovább fejleszteni.
-
-# Működése
-Egy időjárás álló házban lesz elhelyezve az **ESP-32** családba tartozó mikrokontroller; a **BME 280-M** hőmérséklet, páratartalom, légnyomás szenzort; **MQ-135** levegőminőség szenzor (Előny: olcsó,több dolgot mér; Hátrány: kevésbé pontos) vagy egy **MH-Z19C** (Előny:pontosabbb; Hátrány: drábabb csak COˇ2 mér).
-Akkumlátor: 
